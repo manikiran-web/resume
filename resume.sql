@@ -7,5 +7,6 @@ CREATE TABLE IF NOT EXISTS contact (
     cell VARCHAR(20),
     email VARCHAR(100),
     address TEXT,
+  
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
